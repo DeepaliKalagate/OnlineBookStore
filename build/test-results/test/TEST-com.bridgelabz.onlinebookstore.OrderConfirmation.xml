@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.onlinebookstore.OrderConfirmation" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-18T07:54:08" hostname="admin123-desktop" time="1.294">
+  <properties/>
+  <testcase name="givenURL_WhenGivenId_ThenShouldReturnBookById" classname="com.bridgelabz.onlinebookstore.OrderConfirmation" time="1.294"/>
+  <system-out><![CDATA[{
+    "message": " Order updated successfully",
+    "statusCode": 200
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
