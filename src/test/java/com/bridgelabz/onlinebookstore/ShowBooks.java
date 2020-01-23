@@ -30,7 +30,7 @@ public class ShowBooks extends BaseTest
             Response response=RestAssured.given()
                     .accept(ContentType.JSON)
                     .when()
-                    .get("/showBooks");
+                    .get("showBooks");
             int status=response.getStatusCode();
             ResponseBody body = response.getBody();
             Object Object = new JSONParser().parse(body.prettyPrint());

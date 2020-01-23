@@ -33,7 +33,7 @@ public class OrderConfirmation extends BaseTest
                     .accept(ContentType.JSON)
                     .when()
                     .body("{\"id\" :\"5\",\"customerName\" :\"Customerame\",\"mobileNumber\" : \"91 8793432373\",\"pincode\" :\"411 011\",\"address\" :\"dhjasgdas\",\"city\" :\"City\",\"country\" :\"India\"}")
-                    .post("/orderConfirmation/5");
+                    .post("orderConfirmation/5");
             int status=response.getStatusCode();
             ResponseBody body = response.getBody();
             JSONObject Object = (JSONObject) new JSONParser().parse(body.prettyPrint());
@@ -44,4 +44,6 @@ public class OrderConfirmation extends BaseTest
             e.printStackTrace();
         }
     }
+
+
 }
