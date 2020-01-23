@@ -19,7 +19,7 @@ public class BaseTest
     public void setUp()
     {
         RestAssured.baseURI="http://192.168.0.167:8080/books/";
+        // RestAssured.baseURI="http://3.135.215.89:8080/books";
 
-//        RestAssured.baseURI="http://3.135.215.89:8080/books";
     }
 }
